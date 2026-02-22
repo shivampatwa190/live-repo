@@ -4,89 +4,89 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  
+
   return (
-   
-      <div className="app">
-        <style>{css}</style>
 
-        {/* Navbar */}
-        <nav className="navbar">
-          <h1 className="logo">Shivam<span>.</span></h1>
-          <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
+    <div className="app">
+      <style>{css}</style>
 
-        {/* Hero Section */}
-        <section id="home" className="hero">
-          <h2>Hi, I'm <span>Shivam</span></h2>
-          <p>IT Student | Frontend Learner | Future Full‑Stack Developer</p>
-          <button>Download Resume</button>
-        </section>
+      {/* Navbar */}
+      <nav className="navbar">
+        <h1 className="logo">Shivam Patwa<span>.</span></h1>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
 
-        {/* About */}
-        <section id="about" className="section">
-          <h2>About Me</h2>
-          <p>
-            I am an IT student who loves building clean and simple web interfaces.
-            Currently learning React, Java, and backend fundamentals. I enjoy
-            solving problems and turning ideas into real projects.
-          </p>
-        </section>
+      {/* Hero Section */}
+      <section id="home" className="hero">
+        <h2>Hi, I'm <span>Shivam</span></h2>
+        <p>IT Student | Frontend Learner | Future Full‑Stack Developer</p>
+        <button>Download Resume</button>
+      </section>
 
-        {/* Skills */}
-        <section id="skills" className="section gray">
-          <h2>Skills</h2>
-          <div className="skills">
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>JavaScript</span>
-            <span>React</span>
-            <span>Java</span>
-            <span>Git & GitHub</span>
+      {/* About */}
+      <section id="about" className="section">
+        <h2>About Me</h2>
+        <p>
+          I am an IT student who loves building clean and simple web interfaces.
+          Currently learning React, Java, and backend fundamentals. I enjoy
+          solving problems and turning ideas into real projects.
+        </p>
+      </section>
+
+      {/* Skills */}
+      <section id="skills" className="section gray">
+        <h2>Skills</h2>
+        <div className="skills">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+          <span>React</span>
+          <span>Java</span>
+          <span>Git & GitHub</span>
+        </div>
+      </section>
+
+      {/* Projects */}
+      <section id="projects" className="section">
+        <h2>Projects</h2>
+        <div className="projects">
+          <div className="card">
+            <h3>Portfolio Website</h3>
+            <p>Personal portfolio made using React.</p>
           </div>
-        </section>
-
-        {/* Projects */}
-        <section id="projects" className="section">
-          <h2>Projects</h2>
-          <div className="projects">
-            <div className="card">
-              <h3>Portfolio Website</h3>
-              <p>Personal portfolio made using React.</p>
-            </div>
-            <div className="card">
-              <h3>Java Mini Project</h3>
-              <p>Console based project using OOP concepts.</p>
-            </div>
-            <div className="card">
-              <h3>College Assignment App</h3>
-              <p>Simple frontend app for practice.</p>
-            </div>
+          <div className="card">
+            <h3>Java Mini Project</h3>
+            <p>Console based project using OOP concepts.</p>
           </div>
-        </section>
+          <div className="card">
+            <h3>College Assignment App</h3>
+            <p>Simple frontend app for practice.</p>
+          </div>
+        </div>
+      </section>
 
-        {/* Contact */}
-        <section id="contact" className="section gray">
-          <h2>Contact Me</h2>
-          <p>Email: shivam@example.com</p>
-          <p>GitHub: github.com/shivampatwa190</p>
-        </section>
+      {/* Contact */}
+      <section id="contact" className="section gray">
+        <h2>Contact Me</h2>
+        <p>Email: shivam@example.com</p>
+        <p>GitHub: github.com/shivampatwa190</p>
+      </section>
 
-        {/* Footer */}
-        <footer className="footer">
-          <p>© 2026 Shivam. All rights reserved.</p>
-        </footer>
-      </div>
-    );
-  }
+      {/* Footer */}
+      <footer className="footer">
+        <p>© 2026 Shivam. All rights reserved.</p>
+      </footer>
+    </div>
+  );
+}
 
-  const css = `
+const css = `
 * {
   margin: 0;
   padding: 0;
